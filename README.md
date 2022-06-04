@@ -33,10 +33,6 @@ Executa o servidor Web(windows):
 kotlinc -cp "ktor.jar;." servidor.kt
 '''
 
-e para executar:
-
-kotlin -cp "ktor.jar;." ServidorKt 
-```
 
 Para acessar o servidor, vá para:
 ```

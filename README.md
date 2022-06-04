@@ -12,15 +12,30 @@ Os arquivos e pastas deste projeto:
 O projeto utiliza a linha de comandopara executar tais comandos.
 Para compilar o projeto utilize os seguintes comandos:
 
-Compila o servidor:
+Compila o servidor(linux):
 ```
-kotlinc -cp ktor.jar:. servidor.kt
+kotlinc -cp ktor.jar:. servidor.kt 
 ```
 
+Compila o servidor(windows):
+```
+kotlinc -cp "ktor.jar;." servidor.kt
 
-Executa o servidor Web:
+```
+
+Executa o servidor Web(liux):
 ```
 kotlin -cp ktor.jar:. ServidorKt
+```
+
+Executa o servidor Web(windows):
+```
+kotlinc -cp "ktor.jar;." servidor.kt
+'''
+
+e para executar:
+
+kotlin -cp "ktor.jar;." ServidorKt 
 ```
 
 Para acessar o servidor, vá para:

@@ -30,7 +30,7 @@ kotlin -cp ktor.jar:. ServidorKt
 
 Executa o servidor Web(windows):
 ```
-kotlinc -cp "ktor.jar;." servidor.kt
+kotlin -cp "ktor.jar;." ServidorKt
 ```
 
 

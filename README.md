@@ -20,7 +20,6 @@ kotlinc -cp ktor.jar:. servidor.kt
 Compila o servidor(windows):
 ```
 kotlinc -cp "ktor.jar;." servidor.kt
-
 ```
 
 Executa o servidor Web(liux):
